@@ -1,0 +1,96 @@
+#header
+{
+    background-color: #009999;
+    color: #fff;
+}
+
+#header h1
+{
+    margin: 0;
+    padding: 1rem;
+}
+aside{
+    padding: 1em;
+    background-color: orange;
+}
+article
+{
+    padding: 1em;
+}
+
+footer
+{
+    padding: 1em;
+    background-color: #444;
+    color: white;
+}
+main 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+aside
+{
+    order: 1;    
+}
+
+footer:after
+{
+    content: 'Dit is voor mobiel';
+}
+.TMimg
+{
+    width: 100%;
+    height: 150px;
+}
+@media screen and (min-width: 26em)
+{
+    main
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    article
+    {
+        width: 100%;
+    }
+    
+    aside
+    {
+        flex: 1;
+    }
+    footer:after{
+        content: ' Dit is voor apparaten tussen 26 en 36 em';
+    }
+}
+
+@media screen and (min-width: 36em)
+{
+    main
+    {
+        flex-wrap: nowrap;
+    }
+    article
+    {
+        width: auto;
+        flex: 4;
+    }
+    aside
+    {
+        order: 0;
+    }
+    
+    footer:after
+    {
+        content: ' Dit is voor schermen groter dan 36 em';
+    }
+    
+    .TMimg
+    {
+        width: 70%;
+        height: 100px;
+        margin-left: 15%;
+    }
+}
