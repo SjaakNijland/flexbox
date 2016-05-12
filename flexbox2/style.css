@@ -1,6 +1,6 @@
 #header
 {
-    background-color: #009999;
+    background-color: red;
     color: #fff;
 }
 
@@ -11,7 +11,7 @@
 }
 aside{
     padding: 1em;
-    background-color: orange;
+    background-color:black;
 }
 article
 {
