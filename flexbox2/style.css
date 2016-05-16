@@ -44,6 +44,10 @@ footer:after
     width: 100%;
     height: 150px;
 }
+a img{
+    width: 100px;
+    height: 30px;
+}
 @media screen and (min-width: 26em)
 {
     main
@@ -93,4 +97,5 @@ footer:after
         height: 100px;
         margin-left: 15%;
     }
+    
 }
