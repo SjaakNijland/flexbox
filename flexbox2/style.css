@@ -1,18 +1,45 @@
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+     font-size:  flex;
+ margin: 0;
+    padding: 1rem;
+
+}
+li:hover{
+    color: black;
+   
+}
 #header
 {
     background-color: red;
     color: #fff;
+    
 }
-
+p{
+    color: red;
+}
 #header h1
 {
     margin: 0;
     padding: 1rem;
 }
 aside{
+    
     padding: 1em;
     background-color:black;
 }
+#vak1{
+   display: flex; 
+}
+#vak1 input{
+    flex: 3 0 auto;
+}
+#vak1 button{
+    flex: 1 0 auto;
+}
+
 article
 {
     padding: 1em;
